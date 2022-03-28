@@ -1,6 +1,6 @@
 (function () {
-    function navegarViaAjax(hash) { //navegacao via ajax
-        if (!hash) return
+    function navegarViaAjax(hash) { 
+        if (!hash) return 
 
         const link = document.querySelector(`[wm-link='${hash}']`)
         if(!link) return
